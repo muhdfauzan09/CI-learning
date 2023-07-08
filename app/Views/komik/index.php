@@ -18,7 +18,7 @@
                         <th scope="row"><?= $data['id']; ?></th>
                         <td><img src="" alt=""></td>
                         <td><?= $data['name']; ?></td>
-                        <td><a href="/komik/<?= $data['slug']; ?>" class="btn btn-success">Detail</a></td>
+                        <td><a href="/komik/<?= $data['slug']; ?>" class="btn btn-success">Details</a></td>
                     </tr>
                     <?php endforeach ?>
                 </tbody>
