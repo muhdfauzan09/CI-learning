@@ -1,0 +1,8 @@
+CRITICAL - 2023-06-28 14:34:06 --> Undefined variable $slug
+in APPPATH\Controllers\News.php on line 30.
+ 1 APPPATH\Controllers\News.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slug', 'D:\\Programming\\php\\CI\\project\\first_project\\app\\Controllers\\News.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\News->view('elvis-sighted')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Programming\\php\\CI\\project\\first_project\\public\\index.php')

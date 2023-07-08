@@ -1,0 +1,86 @@
+CRITICAL - 2023-07-07 13:23:12 --> syntax error, unexpected token "if"
+in APPPATH\Config\Routes.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Programming\\php\\CI\\project\\first_project\\public\\index.php')
+CRITICAL - 2023-07-07 13:23:26 --> syntax error, unexpected variable "$routes"
+in APPPATH\Config\Routes.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Programming\\php\\CI\\project\\first_project\\public\\index.php')
+CRITICAL - 2023-07-07 13:25:38 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Programming\\php\\CI\\project\\first_project\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Programming\\php\\CI\\project\\first_project\\public\\index.php')
+CRITICAL - 2023-07-07 13:31:59 --> Too few arguments to function App\Controllers\Home::about(), 0 passed in D:\Programming\php\CI\project\first_project\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->about()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Programming\\php\\CI\\project\\first_project\\public\\index.php')
+CRITICAL - 2023-07-07 13:32:15 --> Too few arguments to function App\Controllers\Home::about(), 0 passed in D:\Programming\php\CI\project\first_project\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->about()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Programming\\php\\CI\\project\\first_project\\public\\index.php')
+CRITICAL - 2023-07-07 13:43:47 --> Too few arguments to function App\Controllers\Cuba::about(), 0 passed in D:\Programming\php\CI\project\first_project\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Cuba.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cuba->about()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cuba))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Programming\\php\\CI\\project\\first_project\\public\\index.php')
+CRITICAL - 2023-07-07 13:43:56 --> Too few arguments to function App\Controllers\Cuba::about(), 0 passed in D:\Programming\php\CI\project\first_project\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Cuba.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cuba->about()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cuba))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Programming\\php\\CI\\project\\first_project\\public\\index.php')
+CRITICAL - 2023-07-07 13:44:18 --> Too few arguments to function App\Controllers\Cuba::about(), 0 passed in D:\Programming\php\CI\project\first_project\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Cuba.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cuba->about()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cuba))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Programming\\php\\CI\\project\\first_project\\public\\index.php')
+CRITICAL - 2023-07-07 14:27:35 --> syntax error, unexpected token "if"
+in APPPATH\Config\Routes.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Programming\\php\\CI\\project\\first_project\\public\\index.php')
+CRITICAL - 2023-07-07 14:41:16 --> Invalid file: "pages/abour.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/abour.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/abour', [], true)
+ 3 APPPATH\Controllers\Pages1.php(15): view('pages/abour')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pages1->about()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages1))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Programming\\php\\CI\\project\\first_project\\public\\index.php')
+CRITICAL - 2023-07-07 14:41:30 --> Invalid file: "layout/about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/about.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('layout/about', [], true)
+ 3 APPPATH\Controllers\Pages1.php(16): view('layout/about')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pages1->about()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages1))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Programming\\php\\CI\\project\\first_project\\public\\index.php')

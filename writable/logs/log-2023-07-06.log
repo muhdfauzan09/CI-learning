@@ -1,0 +1,169 @@
+ERROR - 2023-07-06 08:11:34 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Programming\php\CI\project\first_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\Programming\php\CI\project\first_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'fauzan', Object(SensitiveParameterValue), 'ci4tutorial', 3306, '', 0)
+#1 D:\Programming\php\CI\project\first_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Programming\php\CI\project\first_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Programming\php\CI\project\first_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Programming\php\CI\project\first_project\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Programming\php\CI\project\first_project\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Programming\php\CI\project\first_project\app\Models\NewsModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 D:\Programming\php\CI\project\first_project\app\Controllers\News.php(15): App\Models\NewsModel->getNews()
+#8 D:\Programming\php\CI\project\first_project\system\CodeIgniter.php(932): App\Controllers\News->index()
+#9 D:\Programming\php\CI\project\first_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#10 D:\Programming\php\CI\project\first_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Programming\php\CI\project\first_project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\Programming\php\CI\project\first_project\system\Commands\Server\rewrite.php(47): require_once('D:\\Programming\\...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Programming\php\CI\project\first_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Programming\php\CI\project\first_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Programming\php\CI\project\first_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Programming\php\CI\project\first_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Programming\php\CI\project\first_project\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Programming\php\CI\project\first_project\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Programming\php\CI\project\first_project\app\Models\NewsModel.php(14): CodeIgniter\BaseModel->findAll()
+#6 D:\Programming\php\CI\project\first_project\app\Controllers\News.php(15): App\Models\NewsModel->getNews()
+#7 D:\Programming\php\CI\project\first_project\system\CodeIgniter.php(932): App\Controllers\News->index()
+#8 D:\Programming\php\CI\project\first_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#9 D:\Programming\php\CI\project\first_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Programming\php\CI\project\first_project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Programming\php\CI\project\first_project\system\Commands\Server\rewrite.php(47): require_once('D:\\Programming\\...')
+#12 {main}
+CRITICAL - 2023-07-06 08:11:34 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `news`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\NewsModel.php(14): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\News.php(15): App\Models\NewsModel->getNews()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\News->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Programming\\php\\CI\\project\\first_project\\public\\index.php')
+ERROR - 2023-07-06 08:11:38 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Programming\php\CI\project\first_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\Programming\php\CI\project\first_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'fauzan', Object(SensitiveParameterValue), 'ci4tutorial', 3306, '', 0)
+#1 D:\Programming\php\CI\project\first_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Programming\php\CI\project\first_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Programming\php\CI\project\first_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Programming\php\CI\project\first_project\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Programming\php\CI\project\first_project\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Programming\php\CI\project\first_project\app\Models\NewsModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 D:\Programming\php\CI\project\first_project\app\Controllers\News.php(15): App\Models\NewsModel->getNews()
+#8 D:\Programming\php\CI\project\first_project\system\CodeIgniter.php(932): App\Controllers\News->index()
+#9 D:\Programming\php\CI\project\first_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#10 D:\Programming\php\CI\project\first_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Programming\php\CI\project\first_project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\Programming\php\CI\project\first_project\system\Commands\Server\rewrite.php(47): require_once('D:\\Programming\\...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Programming\php\CI\project\first_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Programming\php\CI\project\first_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Programming\php\CI\project\first_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Programming\php\CI\project\first_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Programming\php\CI\project\first_project\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Programming\php\CI\project\first_project\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Programming\php\CI\project\first_project\app\Models\NewsModel.php(14): CodeIgniter\BaseModel->findAll()
+#6 D:\Programming\php\CI\project\first_project\app\Controllers\News.php(15): App\Models\NewsModel->getNews()
+#7 D:\Programming\php\CI\project\first_project\system\CodeIgniter.php(932): App\Controllers\News->index()
+#8 D:\Programming\php\CI\project\first_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#9 D:\Programming\php\CI\project\first_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Programming\php\CI\project\first_project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Programming\php\CI\project\first_project\system\Commands\Server\rewrite.php(47): require_once('D:\\Programming\\...')
+#12 {main}
+CRITICAL - 2023-07-06 08:11:38 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `news`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\NewsModel.php(14): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\News.php(15): App\Models\NewsModel->getNews()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\News->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Programming\\php\\CI\\project\\first_project\\public\\index.php')
+CRITICAL - 2023-07-06 08:12:35 --> Undefined variable $titles
+in APPPATH\Views\news\index.php on line 1.
+ 1 APPPATH\Views\news\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titles', 'D:\\Programming\\php\\CI\\project\\first_project\\app\\Views\\news\\index.php', 1)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Programming\\php\\CI\\project\\first_project\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('news/index', [], true)
+ 5 APPPATH\Controllers\News.php(20): view('news/index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Programming\\php\\CI\\project\\first_project\\public\\index.php')
+CRITICAL - 2023-07-06 09:08:11 --> syntax error, unexpected token "if"
+in APPPATH\Config\Routes.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Programming\\php\\CI\\project\\first_project\\public\\index.php')
+CRITICAL - 2023-07-06 09:39:30 --> Undefined variable $data
+in APPPATH\Views\name\name.php on line 5.
+ 1 APPPATH\Views\name\name.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\Programming\\php\\CI\\project\\first_project\\app\\Views\\name\\name.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Programming\\php\\CI\\project\\first_project\\app\\Views\\name\\name.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('name/name', [], true)
+ 5 APPPATH\Controllers\Name.php(11): view('name/name', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Name->getName()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Name))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Programming\\php\\CI\\project\\first_project\\public\\index.php')
+CRITICAL - 2023-07-06 09:40:32 --> Undefined variable $data
+in APPPATH\Views\name\name.php on line 5.
+ 1 APPPATH\Views\name\name.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\Programming\\php\\CI\\project\\first_project\\app\\Views\\name\\name.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Programming\\php\\CI\\project\\first_project\\app\\Views\\name\\name.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('name/name', [], true)
+ 5 APPPATH\Controllers\Name.php(11): view('name/name', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Name->getName()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Name))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Programming\\php\\CI\\project\\first_project\\public\\index.php')
+CRITICAL - 2023-07-06 09:41:15 --> Undefined variable $data
+in APPPATH\Views\name\name.php on line 5.
+ 1 APPPATH\Views\name\name.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\Programming\\php\\CI\\project\\first_project\\app\\Views\\name\\name.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Programming\\php\\CI\\project\\first_project\\app\\Views\\name\\name.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('name/name', [], true)
+ 5 APPPATH\Controllers\Name.php(11): view('name/name', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Name->getName()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Name))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Programming\\php\\CI\\project\\first_project\\public\\index.php')
+CRITICAL - 2023-07-06 09:44:03 --> Undefined variable $data
+in APPPATH\Views\name\name.php on line 5.
+ 1 APPPATH\Views\name\name.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\Programming\\php\\CI\\project\\first_project\\app\\Views\\name\\name.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Programming\\php\\CI\\project\\first_project\\app\\Views\\name\\name.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('name/name', [], true)
+ 5 APPPATH\Controllers\Name.php(11): view('name/name', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Name->getName()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Name))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Programming\\php\\CI\\project\\first_project\\public\\index.php')
+CRITICAL - 2023-07-06 09:51:13 --> Call to undefined method App\Models\Name::getName
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Name.php(10): CodeIgniter\Model->__call('getName', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Name->getName()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Name))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Programming\\php\\CI\\project\\first_project\\public\\index.php')
